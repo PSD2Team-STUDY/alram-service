@@ -1,4 +1,4 @@
-import { route } from 'quasar/wrappers';
+import {route} from 'quasar/wrappers';
 import {
   createMemoryHistory,
   createRouter,
@@ -6,7 +6,10 @@ import {
   createWebHistory,
 } from 'vue-router/auto';
 
-import { setupLayouts } from 'virtual:generated-layouts'
+
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import {setupLayouts} from 'virtual:generated-layouts'
 
 
 // import routes from './routes';

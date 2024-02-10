@@ -48,6 +48,8 @@ declare module 'vue-router/auto/routes' {
     '/IndexPage': RouteRecordInfo<'/IndexPage', '/IndexPage', Record<never, never>, Record<never, never>>,
     '/shortPolling/': RouteRecordInfo<'/shortPolling/', '/shortPolling', Record<never, never>, Record<never, never>>,
     '/shortPolling/dashboard': RouteRecordInfo<'/shortPolling/dashboard', '/shortPolling/dashboard', Record<never, never>, Record<never, never>>,
+    '/sseAlarm/': RouteRecordInfo<'/sseAlarm/', '/sseAlarm', Record<never, never>, Record<never, never>>,
+    '/sseAlarm/dashboard': RouteRecordInfo<'/sseAlarm/dashboard', '/sseAlarm/dashboard', Record<never, never>, Record<never, never>>,
   }
 }
 

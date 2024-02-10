@@ -12,3 +12,5 @@ spring:
       url: jdbc:h2:mem:test;Mode=Oracle
       username: sa
       password:
+server:
+  port: 8080
